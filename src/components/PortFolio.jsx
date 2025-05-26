@@ -10,7 +10,7 @@ function PortFolio() {
       id: 1,
       logo: note,
       name: "Note Making App",
-      live: "https://note-making-app1-manish.netlify.app/",
+      live: "https://note-making-app-manish10.netlify.app/",
       source: "https://github.com/manishchauhan8222/Full-Stack-Notes-App-1-",
     },
     {

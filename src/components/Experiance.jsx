@@ -1,9 +1,9 @@
 import React from "react";
-import almabetter from "../../public/almaCert.png";
-import ds from "../../public/ds.jpeg";
-import meta from "../../public/meta.jpeg";
-import ibm from "../../public/ibm.jpeg";
-import john from "../../public/john.png";
+import almabetter from "../../public/almabetter_logo.jpg";
+import ds from "../../public/dslogo.png";
+import meta from "../../public/metalogo.jpg";
+import ibm from "../../public/ibmlogo.png";
+import john from "../../public/johnlogo.png";
 
 function Experiance() {
   const cardItem = [
@@ -54,7 +54,7 @@ function Experiance() {
 
   return (
     <div
-      name="Experiance"
+      name="Certifications"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <h1 className="text-3xl font-bold mb-5">Certifications</h1>
