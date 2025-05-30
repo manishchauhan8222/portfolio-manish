@@ -11,7 +11,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
-
+import ManishResume from "../../public/ManishResume.pdf";
 function Home() {
   return (
     <>
@@ -34,6 +34,15 @@ function Home() {
               />
             </div>
             <br />
+            <a
+              href={ManishResume}
+              download="Manish_Chauhan_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800 transition duration-200"
+            >
+              Download Resume (PDF)
+            </a>
             <p className="text-sm md:text-md text-justify">
               Motivated and detail-oriented MCA student with a solid foundation
               in web development and problem-solving skills. Eager to leverage

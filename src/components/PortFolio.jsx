@@ -1,6 +1,6 @@
 import React from "react";
 
-import note from "../../public/note.png";
+import iphone from "../../public/iphone.png";
 import flash from "../../public/flash.webp";
 import born from "../../public/born.png";
 
@@ -8,10 +8,10 @@ function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: note,
-      name: "Note Making App",
-      live: "https://note-making-app-manish10.netlify.app/",
-      source: "https://github.com/manishchauhan8222/Full-Stack-Notes-App-1-",
+      logo: iphone,
+      name: "Phone Landing Page",
+      live: "https://iphone-landing-page-manish.netlify.app/",
+      source: "https://github.com/manishchauhan8222/3d-iphone-main",
     },
     {
       id: 2,
