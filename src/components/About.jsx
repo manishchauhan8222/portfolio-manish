@@ -42,7 +42,7 @@ function About() {
           </p>
           <p>
             <span className="font-semibold">Backend:</span> Node.js, Express.js,
-            JWT Authentication
+            JWT Authentication, Strapi CMS
           </p>
           <p>
             <span className="font-semibold">Database:</span> MongoDB, Mongoose,

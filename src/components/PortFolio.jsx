@@ -1,6 +1,6 @@
 import React from "react";
 
-import iphone from "../../public/iphone.png";
+import resume from "../../public/resume.png";
 import flash from "../../public/flash.webp";
 import born from "../../public/born.png";
 
@@ -8,10 +8,10 @@ function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: iphone,
-      name: "Phone Landing Page",
-      live: "https://iphone-landing-page-manish.netlify.app/",
-      source: "https://github.com/manishchauhan8222/3d-iphone-main",
+      logo: resume,
+      name: "AI-Powered Resume Builder",
+      live: "https://ai-resume-beta-gold.vercel.app/",
+      source: "https://github.com/manishchauhan8222/ai-resume.git",
     },
     {
       id: 2,
