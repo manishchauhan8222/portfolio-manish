@@ -3,25 +3,33 @@ import React from "react";
 import resume from "../../public/resume.png";
 import flash from "../../public/flash.webp";
 import born from "../../public/born.png";
+import fithub from "../../public/fithub.jpg";
 
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
+      logo: fithub,
+      name: "FitHub – Health & Fitness Suppliments Shopping App",
+      live: "https://fithubsuppliments.netlify.app/",
+      source: "https://github.com/manishchauhan8222/FitHub",
+    },
+    {
+      id: 2,
       logo: resume,
       name: "AI-Powered Resume Builder",
       live: "https://ai-resume-beta-gold.vercel.app/",
       source: "https://github.com/manishchauhan8222/ai-resume.git",
     },
     {
-      id: 2,
+      id: 3,
       logo: flash,
       name: "Flashcard Generator App",
       live: "https://flashcard-generator-manish.netlify.app/",
       source: "https://github.com/manishchauhan8222/flashcardgenerator",
     },
     {
-      id: 3,
+      id: 4,
       logo: born,
       name: "Born Fitness",
       live: "https://born-fitness.netlify.app/",
@@ -51,7 +59,7 @@ function PortFolio() {
             <div className="text-center">
               <h2 className="font-bold text-xl mb-2">{name}</h2>
               <p className="text-gray-600 text-sm mb-3">
-                A full-stack web project built using the MERN stack.
+                A frontend web project built using the React.js.
               </p>
               <div className="flex justify-center space-x-4">
                 <a

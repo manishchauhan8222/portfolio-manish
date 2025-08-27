@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/image-manish.jpg";
+import pic from "../../public/WhatsApp Image 2025-08-28 at 12.33.22 AM.jpeg";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -11,7 +11,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
-import ManishResume from "../../public/ResumeManish.pdf";
+import ManishResume from "../../public/ResumeManish.pdf.pdf";
 function Home() {
   return (
     <>
@@ -98,11 +98,7 @@ function Home() {
             </div>
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
-            <img
-              src={pic}
-              className="rounded-full md:w-[600px] md:h-[450px]"
-              alt=""
-            />
+            <img src={pic} className="rounded-full w-[400px] h-auto" alt="" />
           </div>
         </div>
       </div>
