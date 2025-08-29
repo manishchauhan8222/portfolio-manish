@@ -11,7 +11,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
-import ManishResume from "../../public/ResumeManish.pdf.pdf";
+import Resume_Manish from "../../public/ResumeManish.pdf.pdf";
 function Home() {
   return (
     <>
@@ -35,7 +35,7 @@ function Home() {
             </div>
             <br />
             <a
-              href={ManishResume}
+              href={Resume_Manish}
               download="ResumeManish.pdf"
               target="_blank"
               rel="noopener noreferrer"
